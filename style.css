@@ -4,20 +4,22 @@
     margin: 0;
 }
 
+/* Definición de las fuentes */
 @font-face {
-    font-family: 'poppins-medium';
-    src: url('./assets/Poppins-Medium.ttf') format('truetype');
+    font-family: 'Poppins-Bold';
+    src: url('assets/Poppins-Bold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'poppins-bold';
-    src: url('./assets/Poppins-bold.ttf') format('truetype');
+    font-family: 'Poppins-Medium';
+    src: url('assets/Poppins-Medium.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'poppins-regular';
-    src: url('./assets/Poppins-regular.ttf') format('truetype');
+    font-family: 'Poppins-Regular';
+    src: url('assets/Poppins-Regular.ttf') format('truetype');
 }
+
 
 .page {
     background-color: #4b58cc;
@@ -64,12 +66,12 @@
 }
 
 .about .txt h1 {
-    font-family: poppins-bold;
+    font-family: 'poppins-bold';
 
 }
 
 .about .txt h4 {
-    font-family: poppins-regular;
+    font-family: 'poppins-regular';
 }
 
 
@@ -97,7 +99,7 @@
 }
 
 .card .titulo {
-    font-family: poppins-bold;
+    font-family: 'poppins-bold';
     color: #ffffff;
 }
 
@@ -106,7 +108,7 @@
     width: 80%;
     margin: 10px;
     color: #ffffff;
-    font-family: poppins-medium;
+    font-family: 'poppins-medium';
 }
 
 
@@ -168,14 +170,14 @@
 }
 
 .contenido .titulo {
-    font-family: poppins-bold;
+    font-family: 'poppins-bold';
     color: whitesmoke;
     text-align: center;
 }
 
 .contenido .txt {
     width: 90%;
-    font-family: poppins-medium;
+    font-family: 'poppins-medium';
     color: whitesmoke;
 }
 
@@ -212,7 +214,7 @@
 .link .txt {
     display: flex;
     align-items: center;
-    font-family: poppins-medium;
+    font-family: 'poppins-medium';
     font-size: 80%;
     width: 70%;
     height: 80%;
@@ -254,7 +256,7 @@
     .qr-btn a {
         display: flex;
         color: #6f4ad2;
-        font-family: poppins-bold;
+        font-family: 'poppins-bold';
         text-align: center;
         text-decoration: none;
     }
@@ -269,7 +271,7 @@
 
     .about .txt {
         width: 90%;
-        font-family: poppins-regular;
+        font-family: 'poppins-regular';
         font-size: 65%;
     }
 
@@ -295,7 +297,7 @@
 
     .card .titulo {
         text-align: center;
-        font-family: poppins-bold;
+        font-family: 'poppins-bold';
         font-size: 70%;
         color: #ffffff;
     }
@@ -305,7 +307,7 @@
         width: 80%;
         margin: 10px;
         color: #ffffff;
-        font-family: poppins-medium;
+        font-family: 'poppins-medium';
         font-size: 60%;
     }
 
@@ -364,7 +366,7 @@
     }
 
     .contenido .titulo {
-        font-family: poppins-bold;
+        font-family: 'poppins-bold';
         color: whitesmoke;
         text-align: center;
         font-size: 70%;
@@ -373,7 +375,7 @@
     .contenido .txt {
         width: 90%;
         font-size: 70%;
-        font-family: poppins-medium;
+        font-family: 'poppins-medium';
         color: whitesmoke;
     }
 
@@ -411,7 +413,7 @@
     .link .txt {
         display: flex;
         align-items: center;
-        font-family: poppins-medium;
+        font-family: 'poppins-medium';
         font-size: 60%;
         width: 70%;
         height: 80%;
